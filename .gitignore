@@ -1,1 +1,4 @@
 .vscode
+*wallet.json
+node_modules
+wallet.md
