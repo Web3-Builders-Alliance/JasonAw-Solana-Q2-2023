@@ -1,6 +1,6 @@
 import { Connection, Keypair, SystemProgram, PublicKey } from "@solana/web3.js"
 import { Program, Wallet, AnchorProvider, Address } from "@project-serum/anchor"
-import { WbaVault, IDL } from "./programs/wba_prereq";
+import { WbaVault, IDL } from "../programs/wbaVault";
 import wallet from "../dev-wallet.json"
 
 // We're going to import our keypair from the wallet file

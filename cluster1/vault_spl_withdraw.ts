@@ -1,6 +1,6 @@
 import { Connection, Keypair, SystemProgram, PublicKey } from "@solana/web3.js"
 import { Program, Wallet, AnchorProvider, Address, BN } from "@project-serum/anchor"
-import { WbaVault, IDL } from "./programs/wba_prereq";
+import { WbaVault, IDL } from "../programs/wbaVault";
 import wallet from "../dev-wallet.json"
 import { TOKEN_PROGRAM_ID, getOrCreateAssociatedTokenAccount } from "@solana/spl-token";
 
